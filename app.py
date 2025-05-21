@@ -13,7 +13,7 @@ st.set_page_config(page_title="Customer Segmentation", layout="centered")
 st.title("🛍️ Customer Segmentation using K-Means Clustering")
 
 # Default CSV path (your uploaded file)
-default_csv_path = "D:\\Coding\Projects\\Customer segmentation\\Mall_Customers.csv"
+default_csv_path = "Mall_Customers.csv"
 
 # Upload CSV or use default
 uploaded_file = st.file_uploader("Upload your own Mall_Customers.csv", type=["csv"])
